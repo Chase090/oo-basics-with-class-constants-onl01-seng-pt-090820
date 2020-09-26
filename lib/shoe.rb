@@ -7,7 +7,7 @@ BRANDS = []
 
   def initialize(brand)
     @brand = brand
-    if !(BRANDS.include?(@brand))
+    if !(BRANDS.include?(@brand)) #if the the BRANDS does NOT include. then shovel instance to BRAND
       BRANDS << @brand
     end
   end
