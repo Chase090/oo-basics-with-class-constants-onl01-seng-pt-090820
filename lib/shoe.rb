@@ -9,7 +9,9 @@ BRANDS = []
     @brand = brand
     if !(BRANDS.include?(@brand)) #if the the BRANDS does NOT include. then shovel instance to BRAND
       BRANDS << @brand
-    end
+      
+      # binding.pry
+     end
   end
 
   def cobble
